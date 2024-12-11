@@ -1,0 +1,31 @@
+//Basic arrow function
+const a=()=>{
+console.log("This is basic arrow function");
+
+}
+a();
+
+//Arrow function with one parameter:
+const b = x=>x + 1;
+console.log(b(5));
+
+//Arrow function with implicit return
+
+const c=(a)=>{
+    return a+1;
+}
+console.log(c(10));
+
+//Arrow function with multiple paramater
+const x=(a,b)=>{
+    return a*b;
+}
+
+console.log(x(10,10));
+
+//Arrow function without parameter
+const y=()=>{
+    console.log("This arrow without parameter");
+    
+}
+y();

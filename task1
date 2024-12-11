@@ -1,0 +1,12 @@
+let a1=[1,2,3,4,5];
+let b=a1.map((e)=>e**2);
+console.log(b);
+let c=b.filter((e)=>e%2==0);
+console.log(c);
+let sum=c.reduce((acc,num)=>acc+num);
+//let arr=c;
+console.log(sum);
+
+
+
+
